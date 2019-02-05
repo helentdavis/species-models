@@ -1,9 +1,8 @@
 ## sdm_rastertool.py
 ## Python 2.7.8
-## Author: Helen Davis, Colorado State University, Center for Environmental Management of Military Lands
 ## Date Created: 12 December 2018
-## Intended Use: Written for the eagle compliance project to prepare raster files for nest suitability model analysis.
-##          Provides automation for ensuring all raster files are the same resolution, extent, and projection for easy transition to R and Maxent.
+## Intended Use: Written to prepare raster files for nest suitability model analysis.
+## Provides automation for ensuring all raster files are the same resolution, extent, and projection for easy transition to R and Maxent.
 ## Inputs: Raster files containing variables for use in analysis.
 ##          A shapefile(s) with desired projection and clipping extent.      
 ## Outputs: Raster files with matching resoltuion, extent, and projection
