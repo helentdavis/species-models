@@ -1,11 +1,9 @@
 ## sdmcode.R
 ## R 3.5.1
-## Author: Helen Davis, Colorado State University, Center for Environmental Management of Military Lands
-## Date Created: 01 November 2018
-## Intended Use: Written for the eagle compliance project to predict suitable eagle nesting habitat.
+## Intended Use: Written to predict suitable eagle nesting habitat.
 ## Code closely follows the dismo R vignette by Hijmans et al. 2017 https://cran.r-project.org/web/packages/dismo/vignettes/sdm.pdf
 ## Inputs: Nest locations must be in points shapefile.
-##         Predictor raster files must be in separate folder by themselves
+## Predictor raster files must be in separate folder by themselves
 ## Outputs: Predicted nesting distribution raster. Maxent output can be saved or viewed in pop-out explorer window.
 ## Instructions: Maxent must be downloaded and dismo package configured prior to conducting analysis. Detailed instructions in dismo vignette, pg 56 (exerpt below).
 ## MaxEnt is available as a standalone Java program. Dismo has a function maxent that communicates with this program. 
