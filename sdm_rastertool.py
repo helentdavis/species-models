@@ -4,10 +4,12 @@
 ## Intended Use: Written to prepare raster files for nest suitability model analysis.
 ## Provides automation for ensuring all raster files are the same resolution, extent, and projection for easy transition to R and Maxent.
 ## Inputs: Raster files containing variables for use in analysis.
-##          A shapefile(s) with desired projection and clipping extent.      
+##          A shapefile(s) with desired clipping extent. This will be your mask.
+##          A raster with desired projection, extent, and resolution. This will be your snap.
 ## Outputs: Raster files with matching resoltuion, extent, and projection
 ## Instructions: Run Module from preferred platform. Follow user prompts as specified.
-##          All shapefiles and raster files must be housed in a geodatabase prior to running module 
+##          Mask shapefile and raster files for analysis must be housed in a geodatabase prior to running module 
+##          Snap raster cannot be in the geodatabase.
 
 import arcpy
 import time
